@@ -1,6 +1,12 @@
-@font-face{
-    font-family: nikosh;
-    src: url("fonts/Nikosh.ttf") format("truetype");
+@font-face {
+    font-family: "Nikosh";
+    src: url("fonts/Nikosh.eot"); /* IE9 Compat Modes */
+    src: url("fonts/Nikosh.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("fonts/Nikosh.ttf") format("truetype"),
+         url("fonts/Nikosh.svg") format("svg"), /* Legacy iOS */
+         url("fonts/Nikosh.woff") format("woff"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
 }
 *{
     font-family: nikosh;
@@ -9,6 +15,7 @@
 }
 .bg{
     background: #bdc3c7c0;
+    width: 100%;
 }
 .container{
     width: 80%;
@@ -20,11 +27,13 @@ h1{
     background: -webkit-linear-gradient(#8e44ad, #3498db);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-transition: .2s;
     transition: .2s;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 h1:hover{
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .buttons{
     width: 250px;
@@ -39,8 +48,10 @@ h1:hover{
     font-size: 28px;
     margin-bottom: 30px;
     padding: 13px 0;
+    background: -webkit-gradient(linear,left top, left bottom,from(#d35400),to(#e67e22));
     background: linear-gradient(#d35400,#e67e22);
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 2px;
 }
 
