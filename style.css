@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #6696d9;
+}
+
+.clg {
+	border: 10px solid white;
+	width: 60%;
+}
+
+hr {
+	padding: 2px;
+	background: limegreen;
+}
+
+.heading {
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+.dscrptn {
+	border: 3px solid green;
+	background: yellow;
+	text-align: center;
+}
+
+.admn {
+	border: 2px solid black;
+	background: pink;
+	color: blue;
+	text-align: center;
+}
+
+.dp {
+	border: 10px solid white;
+	width: 60%
+}
+
+.dpname {
+	background: yellow;
+	color: red;
+	text-align: center;
+}
+
+.information {
+	border: 5px solid white;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+}
+
+.bg {
+	background: yellow;
+	color: black;
+	margin: 10px;
+}
+
+.prfl {
+	border: 5px solid red;
+	text-align: center;
+	padding: 10px;
+	background: black
+}
+
+.aded {
+	border: 5px solid black;
+	width: 100%;
+	background: yellow;
+	text-align: center;
+	padding: 15px;
+}
+
+.aded a {
+	font-size: 16px;
+	color: #000;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	border: 5px solid red;
+	background: pink;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.aded ul li a {
+	font-size: 20px;
+	margin: 10px auto;
+}
